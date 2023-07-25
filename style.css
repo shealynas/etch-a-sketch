@@ -1,0 +1,25 @@
+.board {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: stretch;
+  height: 960px;
+  width: 960px;
+  border: solid black 1px;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.cell {
+  flex: 1;
+  border: solid black 1px;
+}
+
+.black {
+  background-color: black;
+}
